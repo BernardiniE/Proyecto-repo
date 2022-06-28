@@ -1,0 +1,216 @@
+:root {
+    --rosa1: #F8EDEB;
+    --rosa2: #FCD5CE;
+    --rosa3: #FFB5A7;
+    --amarillo: #f4f482;
+    --oscuro: #212121;
+    --blanco: #ffffff;
+    }
+
+/** Etiquetas principales **/
+
+body{
+    background-color: var(--rosa3);
+}
+
+header{
+    background-color: var(--rosa2);
+    padding: 50px 50px 50px 50px;
+    border-style: double;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav{
+    background-color: var(--rosa1);
+    padding: 5px 5px 5px 5px;
+    border: 15px 15px 15px 15px;
+    border-style: double;
+}
+
+
+
+footer{
+    background-image: url(../imagenes/imagen\ de\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    border: 10px 10px 10px 10px;
+    border-style: double;
+    padding: 20px 20px 20px 20px;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+
+li {
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline;
+    position: relative;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+
+section,
+main{
+   /* display: flex;
+    justify-content: space-between; */
+    border: 10px 10px 10px 10px;
+    border-style: double;
+}
+
+/** Clases **/
+
+.logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;    
+}
+#barralogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logocontacto{
+    width: 50px;
+    height: 50px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+#titulo{
+    color: black;
+    text-align: center;
+    padding: 90px 20px 50px 20px;
+    border: 15px 15px 15px 15px;
+    border-style: inherit;
+    border-radius: 60%;
+    border-color: black;
+    background-color: var(--rosa1);
+}
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.navegacion__enlace {
+    color: var(--oscuro);
+}
+
+
+.navegacion__enlace:hover {
+    color: var(--rosa3);
+}
+
+.imagenes {
+    width: 500px;
+    height: 500px;
+    border: 10px solid var(--rosa3);
+    border-radius: 100%;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor__interno,
+.contenedor__interno--footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor__interno--footer{
+    justify-content: center;
+}
+
+/** trabajos.html **/
+
+.diseños{
+    display: flex;
+    flex-flow: column wrap;
+    row-gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.diseños__tamaño{
+    width: 350px;
+    height: 350px;
+    border: 5px solid red;
+}
+
+/** diseñadora.html **/
+
+.personales{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/** reseñas.html **/
+
+.testimonios{
+    display: flex;
+}
+
+.testimonios__tamaños{
+    width: 300px;
+    height: 300px;
+    border: 5px double black;
+}
+
+
+/** recomendaciones.html **/
+
+
+
+
+/** contacto.html **/
+
+.formulario{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    padding: 150px 150px 150px 150px;
+}
